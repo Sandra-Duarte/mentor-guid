@@ -1,0 +1,58 @@
+//Array Methodos
+//for Eah, map. filter , reduce, some  find
+let numbers = [1, 2, 3, 4, 5, 6];
+
+numbers.forEach((item, i) =>{
+return i;
+})
+//console.log(numbers);
+//console.log(numbers);
+
+let countries = [ "AUS", "US", "UK", "PT", "CV","CAN"];
+countries.forEach((itens, i) =>{
+    return itens
+})
+//console.log(countries);
+
+
+
+
+///MAP
+// loops over an Arrays and returns a new araay with modefied date from exietig array
+
+ countries = countries.map(( itens, i) =>{
+    return itens;
+})
+//console.log(countries);
+
+ numbers = numbers.map((itens, i) =>{
+    if (itens % 2 === 0){ // verificar even number 
+return itens * 2;
+    }else{
+        return itens;
+    }
+});
+//console.log(numbers);
+
+let myArray = [1, 6, 8, 9, 10, 20, 80, 100];
+
+ myArray.map((itens, i) => {
+    return itens
+
+})
+//console.log(myArray);
+myArray = myArray.map((itens, i) =>{
+    return itens + 3;
+})
+//console.log(myArray);
+
+myArray= myArray
+
+
+
+
+
+
+
+
+

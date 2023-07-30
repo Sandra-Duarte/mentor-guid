@@ -1,0 +1,40 @@
+To create a React App:
+npx create-react-app my-app
+
+To run the App:
+npm start
+
+To connect a child Component with a Prent Component:
+1: IMport child
+2: Use it like a HTML/JSX tag
+
+Tasks:
+1:Create a Child Component of App Named 'Count', pass down two numbers to it.
+2:Create a Child of GrandChild Component, and pass down anything as a prop, and display it
+3: Add a button in GrandChild Component, and put a eventHandler on it.
+
+https://www.npmjs.com/package/axios
+Installing Axios:
+npm i axios
+
+Installing React Router dom
+https://reactrouter.com/en/main
+
+- React Router  (react-router-dom)
+- useContext
+ => useContext is used to avoid props drilling  issue.
+
+1. Import createContext
+2. Create a COntext
+3. Wrap elements in Provider and provide value
+4. export context variable
+5. IMport useContext
+6. Import Context variable.
+7. Extract data using useContext and pass in contenxt variable
+
+ - useReducer
+
+
+Redux
+npm run lint:fix
+npm run lint:fix
